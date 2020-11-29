@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/devotionals/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/devotionals/static/js/main.848f95ed.chunk.js",
-    "main.js.map": "/devotionals/static/js/main.848f95ed.chunk.js.map",
-    "runtime-main.js": "/devotionals/static/js/runtime-main.1e622036.js",
-    "runtime-main.js.map": "/devotionals/static/js/runtime-main.1e622036.js.map",
-    "static/js/2.b5afddfd.chunk.js": "/devotionals/static/js/2.b5afddfd.chunk.js",
-    "static/js/2.b5afddfd.chunk.js.map": "/devotionals/static/js/2.b5afddfd.chunk.js.map",
-    "static/js/3.a4840a34.chunk.js": "/devotionals/static/js/3.a4840a34.chunk.js",
-    "static/js/3.a4840a34.chunk.js.map": "/devotionals/static/js/3.a4840a34.chunk.js.map",
+    "main.js": "/devotionals/static/js/main.09ce635e.chunk.js",
+    "main.js.map": "/devotionals/static/js/main.09ce635e.chunk.js.map",
+    "runtime-main.js": "/devotionals/static/js/runtime-main.e4dee661.js",
+    "runtime-main.js.map": "/devotionals/static/js/runtime-main.e4dee661.js.map",
+    "static/js/2.b4eb744d.chunk.js": "/devotionals/static/js/2.b4eb744d.chunk.js",
+    "static/js/2.b4eb744d.chunk.js.map": "/devotionals/static/js/2.b4eb744d.chunk.js.map",
+    "static/js/3.5b5c12af.chunk.js": "/devotionals/static/js/3.5b5c12af.chunk.js",
+    "static/js/3.5b5c12af.chunk.js.map": "/devotionals/static/js/3.5b5c12af.chunk.js.map",
     "index.html": "/devotionals/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/devotionals/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b5afddfd.chunk.js.LICENSE.txt": "/devotionals/static/js/2.b5afddfd.chunk.js.LICENSE.txt"
+    "static/js/2.b4eb744d.chunk.js.LICENSE.txt": "/devotionals/static/js/2.b4eb744d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e622036.js",
-    "static/js/2.b5afddfd.chunk.js",
+    "static/js/runtime-main.e4dee661.js",
+    "static/js/2.b4eb744d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.848f95ed.chunk.js"
+    "static/js/main.09ce635e.chunk.js"
   ]
 }
