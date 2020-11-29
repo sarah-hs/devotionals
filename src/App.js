@@ -52,24 +52,56 @@
 import React from 'react';
 import Tabs from "./components/Tabs";
 import './App.css';
+//
+//function App() {
+//  return (
+//      <div>
+//        <h1>Tabs Demo</h1>
+//          <Tabs>
+//             <div label="Gator">
+//               See ya later, <em>Alligator</em>!
+//             </div>
+//             <div label="Croc">
+//               After 'while, <em>Crocodile</em>!
+//             </div>
+//             <div label="Sarcosuchus">
+//               Nothing to see here, this tab is <em>extinct</em>!
+//             </div>
+//           </Tabs>
+//      </div>
+//  );
+//}
 
-function App() {
-  return (
+
+
+
+var SegmentedControl = require('react-segmented-control');
+
+var App = React.createClass({
+
+  getInitialState() {
+    return {
+      color: 'red'
+    };
+  },
+  render() {
+    return (
       <div>
-        <h1>Tabs Demo</h1>
-          <Tabs>
-             <div label="Gator">
-               See ya later, <em>Alligator</em>!
-             </div>
-             <div label="Croc">
-               After 'while, <em>Crocodile</em>!
-             </div>
-             <div label="Sarcosuchus">
-               Nothing to see here, this tab is <em>extinct</em>!
-             </div>
-           </Tabs>
+        <SegmentedControl
+          onChange={this.colorUpdated}
+          value={this.state.color}
+          name="color">
+          <span value="red">Red</span>
+          <span value="blue">Blue</span>
+        </SegmentedControl>
+        <div className='background' style={{background: this.state.color}} />
       </div>
-  );
-}
+    );
+  },
+  
+  colorUpdated(value) {
+    this.setState({color: value});
+  }
+});
 
 export default App;
