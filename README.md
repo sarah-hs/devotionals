@@ -2,7 +2,7 @@
 # Daily devotional
 
 Example here: https://jonathangomz.codes/daily-devotional/
-&nbsp;
+
 My page:  https://sarah-hs.github.io/devotionals/
 
 ## Instructions
